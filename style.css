@@ -31,6 +31,78 @@ ul,ol,li{
     margin-left: 0;
 }
 
+/* Header */
+.me{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.title{
+    margin: 50px 0 20px 0;
+    font-size: 40px;
+    line-height: 2;
+}
+
+.title-desc{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    background-color: #F4F4F4;
+    height: 100vh;
+}
+
+.coment{
+    visibility: hidden;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* 760px 이상 (Desktop) */
+@media screen and (min-width: 760px) {
+   .coment{
+       visibility: visible;
+   }
+
+   .title{
+       font-size: 50px;
+   }
+
+   .title-desc{
+       font-size: 30px;
+   }
+
+   .me{
+       width: 300px;
+       transition: box-shadow 500ms ease-in-out;
+   }
+
+   .me:hover{
+        box-shadow: 0 10px 16px rgb(81, 16, 146, 0.85);
+
+   }
+
+
+}
+
 /* custom grid system - Fix container width */
 @media screen and (min-width: 1200px) {
     .container{
