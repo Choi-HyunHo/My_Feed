@@ -78,12 +78,25 @@ ul,ol,li{
 }
 
 /* gangneung */
-.gangneung2-img{
+.gangneung{
+    background-color: #fbded9;
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+.gangneung-title{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.gangneung2-img {
     display: block;
     width: 200px;
     height: auto;
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px; /* 가운데 배치 */
 }
 
 .gangneung4-img{
@@ -92,7 +105,7 @@ ul,ol,li{
     width: 200px;
     height: 266.66px;
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
 
 .gangneung5-img{
@@ -101,7 +114,7 @@ ul,ol,li{
     width: 200px;
     height: 266.66px;
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
 
 
