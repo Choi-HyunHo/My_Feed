@@ -121,6 +121,7 @@ ul,ol,li{
 
 /* 760px 이상 (Desktop) */
 @media screen and (min-width: 760px) {
+    /* header */
    .coment{
        visibility: visible;
    }
@@ -143,6 +144,21 @@ ul,ol,li{
 
    }
 
+   /* gangneung */ 
+   .gangneung2-img{
+       width: 300px;
+       height: 400px;
+   }
+
+   .gangneung4-img{
+       width: 300px;
+       height: 400px;
+   }
+
+   .gangneung5-img{
+    width: 300px;
+    height: 400px;
+}
 
 }
 
