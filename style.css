@@ -33,6 +33,7 @@ ul,ol,li{
 
 /* Header */
 .me{
+    display: block;
     width: 200px;
     height: auto;
     border-radius: 20px;
@@ -75,6 +76,35 @@ ul,ol,li{
     text-align: center;
     font-weight: 600;
 }
+
+/* gangneung */
+.gangneung2-img{
+    display: block;
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.gangneung4-img{
+    margin-top: 21px;
+    display: block;
+    width: 200px;
+    height: 266.66px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.gangneung5-img{
+    margin-top: 21px;
+    display: block;
+    width: 200px;
+    height: 266.66px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+
 
 /* 760px 이상 (Desktop) */
 @media screen and (min-width: 760px) {
