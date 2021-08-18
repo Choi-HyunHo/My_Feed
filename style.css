@@ -79,7 +79,7 @@ ul,ol,li{
 
 /* gangneung */
 .gangneung{
-    background-color: #fbded9;
+    background-color: #FDDED8;
     padding-top: 30px;
     text-align: center;
 
@@ -144,7 +144,6 @@ ul,ol,li{
 
    .me:hover{
         box-shadow: 0 10px 16px rgb(81, 16, 146, 0.85);
-
    }
 
    /* gangneung */ 
@@ -154,16 +153,31 @@ ul,ol,li{
    .gangneung2-img{
        width: 300px;
        height: 400px;
+       transition: box-shadow 500ms ease-in-out;
    }
 
    .gangneung4-img{
        width: 300px;
        height: 400px;
+       transition: box-shadow 500ms ease-in-out;
    }
 
    .gangneung5-img{
-    width: 300px;
-    height: 400px;
+       width: 300px;
+       height: 400px;
+       transition: box-shadow 500ms ease-in-out;
+   }
+
+   .gangneung2-img:hover{
+       box-shadow: 0 10px 16px rgba(204, 68, 111, 0.85);
+   }
+
+   .gangneung4-img:hover{
+       box-shadow: 0 10px 16px rgba(204, 68, 111, 0.85);
+   }
+
+   .gangneung5-img:hover{
+       box-shadow: 0 10px 16px rgba(204, 68, 111, 0.85);
    }
 
 }
