@@ -160,6 +160,41 @@ ul,ol,li{
     margin: 0 auto 30px;
 }
 
+/* Wonju */
+.may{
+    margin-bottom: 20px;
+}
+
+.wonju{
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.wonju-title{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.wonju-img{
+    display: block;
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    margin: 0 auto 30px;
+}
+
+.festival-defin{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.festival-desc{
+    text-align: left;
+}
+
 
 
 /* 760px 이상 (Desktop) */
@@ -196,6 +231,7 @@ ul,ol,li{
    .march{
        display: none;
    }
+
    .gangneung2-img{
        width: 300px;
        height: 400px;
@@ -251,7 +287,25 @@ ul,ol,li{
         box-shadow: 0 10px 16px rgba(204, 68, 111, 0.85);
    } 
 
+   /* Wonju */
+   .may{
+    display: none;
+   }
 
+   .wonju-img{
+    width: 300px;
+    height: 400px;
+    transition: box-shadow 500ms ease-in-out;
+   }
+
+   .festival-desc{
+       font-size: 17px;
+       text-align: left;
+   }
+
+   .wonju-img:hover{
+    box-shadow: 0 10px 16px rgba(254, 178, 57, 0.85);
+   } 
 
 }
 
