@@ -234,12 +234,24 @@ ul,ol,li{
    .chuncheon1-img{
        width: 400px;
        height: auto;
+       transition: box-shadow 500ms ease-in-out;
    }
 
    .chuncheon2-img{
-    width: 400px;
-    height: auto;
-}
+        width: 400px;
+        height: auto;
+        transition: box-shadow 500ms ease-in-out;
+   }
+
+   .chuncheon1-img:hover{
+        box-shadow: 0 10px 16px rgba(204, 68, 111, 0.85);
+   }
+
+    .chuncheon2-img:hover{
+        box-shadow: 0 10px 16px rgba(204, 68, 111, 0.85);
+   } 
+
+
 
 }
 
