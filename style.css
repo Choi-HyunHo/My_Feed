@@ -165,6 +165,10 @@ ul,ol,li{
     margin-bottom: 20px;
 }
 
+.may h2{
+    color: #f9ae3e;
+}
+
 .wonju{
     background-color:lightgoldenrodyellow;
     text-align: center;
@@ -193,6 +197,49 @@ ul,ol,li{
 
 .festival-desc{
     text-align: left;
+    margin-bottom: 20px;
+}
+
+/* seoul */
+.seoul{
+    background-color: #cde1fd;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.june{
+    color: #88b6f6;
+    margin-bottom: 20px;
+}
+
+.seoul-title{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.seoul1-img{
+    display: block;
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    margin: 0 auto 30px;
+}
+
+.seoul2-img{
+    display: block;
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    margin: 0 auto 30px;
+}
+
+.seoul3-img{
+    display: block;
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    margin: 0 auto 30px;
 }
 
 
