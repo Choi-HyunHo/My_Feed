@@ -354,6 +354,41 @@ ul,ol,li{
     box-shadow: 0 10px 16px rgba(254, 178, 57, 0.85);
    } 
 
+   /* Seoul */
+   .june{
+    display: none;
+   }
+
+   .seoul1-img{
+    width: 300px;
+    height: 400px;
+    transition: box-shadow 500ms ease-in-out;
+   }
+
+   .seoul2-img{
+    width: 300px;
+    height: 400px;
+    transition: box-shadow 500ms ease-in-out;
+   }
+
+   .seoul3-img{
+    width: 300px;
+    height: 400px;
+    transition: box-shadow 500ms ease-in-out;
+   }
+
+   .seoul1-img:hover{
+    box-shadow: 0 10px 16px rgba(3, 64, 149, 0.85);
+   } 
+
+   .seoul2-img:hover{
+    box-shadow: 0 10px 16px rgba(3, 64, 149, 0.85);
+   } 
+
+   .seoul3-img:hover{
+    box-shadow: 0 10px 16px rgba(3, 64, 149, 0.85);
+   } 
+
 }
 
 /* custom grid system - Fix container width */
