@@ -424,6 +424,31 @@ ul,ol,li{
     box-shadow: 0 10px 16px rgba(3, 64, 149, 0.85);
    } 
 
+   /* footer */
+   .facebook{
+    transition: box-shadow 500ms ease-in-out;
+   }
+
+   .instagram{
+    transition: box-shadow 500ms ease-in-out;
+   }
+
+   .blog{
+    transition: box-shadow 500ms ease-in-out;
+   }
+
+   .facebook:hover{
+    box-shadow: 0 10px 16px rgba(3, 64, 149, 0.85);
+   } 
+
+   .instagram:hover{
+    box-shadow: 0 10px 16px rgba(240, 65, 65, 0.85);
+   } 
+
+   .blog:hover{
+    box-shadow: 0 10px 16px rgba(85, 198, 5, 0.85);
+   } 
+
 }
 
 /* custom grid system - Fix container width */
