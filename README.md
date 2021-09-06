@@ -5,7 +5,10 @@
 -  VSCode
 
 ## 마크업 언어
-- HTML5, CSS
+- HTML5
+
+## 스타일 시트
+- CSS
 
 ## 개발목적
 - Bootstrap grid 활용 
